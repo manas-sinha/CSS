@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex</title>
+    <style>
+      .body {
+        /* display: flex; */
+        margin: 0%;
+        padding: 20px;
+        background-color: azure;
+      }
+      .container {
+        border: 1px solid black;
+        margin-bottom: 20px;
+        padding: 10px;
+        background-color: blanchedalmond;
+      }
+
+      .flex-box {
+        display: flex;
+        flex-wrap: wrap;
+        height: 200px;
+        margin-bottom: 10px;
+      }
+
+      .circle {
+        border-radius: 20%;
+        display: flex;
+        width: 150px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        margin: 5px;
+      }
+
+      .circle1 {
+        background-color: #e02187;
+      }
+      .circle2 {
+        background-color: #c32a2a;
+      }
+      .circle3 {
+        background-color: #3dbebc;
+      }
+      .circle4 {
+        background-color: #8aca1b;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="flex-box" style="flex-wrap: wrap; height: auto">
+        <div class="circle circle1">1</div>
+        <div class="circle circle2">2</div>
+        <div class="circle circle3">3</div>
+        <div class="circle circle4">4</div>
+      </div>
+    </div>
+  </body>
+</html>
